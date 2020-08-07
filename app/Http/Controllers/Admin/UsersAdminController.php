@@ -17,10 +17,10 @@ class UsersAdminController extends Controller
 
 
 
-//     public function __construct()
-// {
-//     $this->middleware(['role:super-admin']);
-// }
+    public function __construct()
+{
+    $this->middleware(['role:super-admin']);
+}
 
 
 
