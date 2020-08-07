@@ -20,7 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 
-// Auth::routes(['register' => false]);
+Auth::routes(['register' => false]);
 
 Route::group(['middleware' => ['role:admin']], function () {
 
